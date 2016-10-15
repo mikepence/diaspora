@@ -65,9 +65,8 @@ gem "bootstrap-switch-rails", "3.3.3"
 group :mysql, optional: true do
   gem "mysql2", "0.4.4"
 end
-group :postgresql, optional: true do
-  gem "pg",     "0.18.4"
-end
+
+gem "pg",     "0.18.4"
 
 
 gem "activerecord-import", "0.15.0"
@@ -241,11 +240,11 @@ group :development do
   # Linters
   gem "rubocop",        "0.40.0"
   gem "haml_lint",      "0.18.1"
-  gem "pronto",         "0.7.0"
-  gem "pronto-eslint",  "0.7.0"
-  gem "pronto-rubocop", "0.7.0"
-  gem "pronto-haml",    "0.7.0"
-  gem "pronto-scss",    "0.7.0", require: false
+  # gem "pronto",         "0.7.0"
+  # gem "pronto-eslint",  "0.7.0"
+  # gem "pronto-rubocop", "0.7.0"
+  # gem "pronto-haml",    "0.7.0"
+  # gem "pronto-scss",    "0.7.0", require: false
 
   # Preloading environment
 
